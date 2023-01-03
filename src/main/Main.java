@@ -18,7 +18,7 @@ public class Main {
 			students = new Students[lenghtArray];
 			Integer counter = 0;
 			while (counter < lenghtArray) {
-
+			System.out.println("Second edit for github");
 				System.out.println("Do you want Create Student(y/n)?");
 				String validation = reader.readLine();
 				if (validation.equalsIgnoreCase("y")) {
@@ -66,7 +66,7 @@ public class Main {
 	}
 
 	private static void finalResult(Students[] students, Integer counter) {
-
+				System.out.println("Third edit for github");
 		int counterA = 0;
 		int counterB = 0;
 		int counterC = 0;
