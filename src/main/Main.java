@@ -12,7 +12,7 @@ public class Main {
 		try {
 			Students students[];
 			BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
+			System.out.println("First edit for gothub");
 			System.out.println("How many user you want to input ?");
 			int lenghtArray = Integer.parseInt(reader.readLine());
 			students = new Students[lenghtArray];
